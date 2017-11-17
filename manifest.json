@@ -1,0 +1,27 @@
+{
+    "repos": [
+      {
+        "name": "evilz/node-mono-dotnet-docker",
+        "readmePath": "README.md",
+        "images": [
+          {
+            "sharedTags": {
+              "2.0.3-dotnetsdk-jessie": {},
+              "5.4.1.6-mono": {},
+              "9.2.0-node": {}
+            },
+            "platforms": [
+              {
+                "dockerfile": "Dockerfile",
+                "os": "linux",
+                "tags": {
+                  "jessie": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
